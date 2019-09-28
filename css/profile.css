@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cream: #f8f8f8;
+    --green: #1abc9c;
+    --bg-img: #000b07;
+    --bg-profile: #474e5d;
+    --bg-search: #ffffff;  /*and my skills*/
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: var(--cream);
+    
+
+}
