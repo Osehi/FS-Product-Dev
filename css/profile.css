@@ -20,6 +20,8 @@ body {
 
 body{
     background-color: #f8f8f8;
+    
+
 }
 
 .wrapper {
@@ -62,10 +64,14 @@ body{
     padding-top: 5px;
 }
 
+.pl {
+    padding-left: 25px;
+}
+
 a {
     color:black;
     text-decoration: none;
-    font-size:
+    
 }
 
 .about {
@@ -117,8 +123,9 @@ img {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    height: 200px;
+    height: 250px;
     background-color: darkred;
+
 }
 
 .profile__heading {
@@ -135,7 +142,7 @@ img {
 .profile__search {
     align-self: center;
     color: var(--bg-search);
-    padding-top: 10px;
+    padding-top: 35px;
 }
 
 .profile__heading h3 {
@@ -154,7 +161,7 @@ img {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    height: 250px;
+    height: auto;
     background-color: var(--cream);
 }
 
@@ -170,15 +177,15 @@ img {
 
 .skills__category {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     padding-top: 10px;
 }
 
 .skills__category__items {
-    /* flex: 1; */
+    
+
     /* flex-wrap: wrap; */
-    /* width: 33%; */
+    align-self: center; 
     
 }
 
@@ -187,6 +194,7 @@ img {
 .fa-html5 {
     font-size: 150px;
     color: darkred;
+   
 }
 
 .fa-css3 {
@@ -252,7 +260,7 @@ img {
         text-decoration: none;
         font-size:20px;
         padding-left:15px;
-        padding-right: 15px;
+        padding-right: 30px;
     }
 
     .about {
@@ -288,6 +296,13 @@ img {
         /* justify-content: center; */
         height: 250px;
         background-color: var(--cream);
+    }
+
+    .skills__category {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 10px;
     }
 
     /* .footer {
@@ -336,7 +351,7 @@ img {
         text-decoration: none;
         font-size:20px;
         padding-left:15px;
-        padding-right: 15px;
+        padding-right: 30px;
     }
 
     .about {
@@ -372,6 +387,13 @@ img {
         /* justify-content: center; */
         height: 250px;
         background-color: var(--cream);
+    }
+
+    .skills__category {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 10px;
     }
 
 
