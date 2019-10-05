@@ -10,20 +10,22 @@
 
     <title>Profile | Osehiase Ehilen</title>
     <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
     <section class="wrapper">
         <!--navigation bar-->
         <section_1 class="nav">
             <div class="nav__logo">
-                <h3 class="fs--look pt pl">FS-Product Dev</h3>
+                <h3 class="fs--look">FS-Product Dev</h3>
             </div>
-            <div class="nav__links">
-                <div class="nav__links_items__1 "><a href="#about-me">About me</a></div>
-                <div class="nav__links_items__2 "><a href="#profile">Profile</a></div>
-                <div class="nav__links_items__3 "><a href="#contact">Contact</a></div>
+            <div class="nav__links" id="nav__links">
+                <div class="nav__links_items__1"><a href="#about-me">About me</a></div>
+                <div class="nav__links_items__2"><a href="#profile">Profile</a></div>
+                <div class="nav__links_items__3"><a href="#contact">Contact</a></div>
             </div>
+            <a href="#" class="icon" onclick="collapse()" ><i class="fa fa-bars"><span class="icon_name"> Menu</span></i></a>
         </section_1>
 
         <!--About me-->
@@ -82,5 +84,16 @@
             </div>
         </section>
     </section>
+    <script>
+        const  collapse = () => {
+           const links = document.getElementById("nav__links");
+           if (links.className == "nav__links"){
+               links.className += " responsive";
+           } else {
+               links.className = "nav__links";
+           }
+        }
+    
+    </script>
 </body>
 </html>
